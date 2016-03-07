@@ -1,0 +1,708 @@
+2016/02/22 12:47:47 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/22 12:47:54 [user.go:22][A] user --- login 
+2016/02/22 12:47:54 [user.go:24][A] [] 
+2016/02/22 12:47:54 [user.go:25][A]  
+2016/02/22 12:47:54 [user.go:36][A] { } 
+2016/02/22 12:47:54 [router.go:828][D] | GET        | /user/login                              | 194.492µs        | match      | /user/login/*                            | 
+2016/02/22 12:49:56 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/22 12:59:00 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/22 12:59:08 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/22 12:59:18 [router.go:828][D] | GET        | /user/redirectdemo                       | 105.072µs        | match      | /user/redirectdemo/*                     | 
+2016/02/22 12:59:18 [user.go:42][W] logout...... 
+2016/02/22 12:59:18 [router.go:828][D] | GET        | /user/logout                             | 64.075µs         | match      | /user/logout/*                           | 
+2016/02/22 13:26:13 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/22 13:26:44 [user.go:17][A] GET ------------- 
+2016/02/22 13:26:44 [user.go:22][A] user --- login 
+2016/02/22 13:26:44 [user.go:24][A] [] 
+2016/02/22 13:26:44 [user.go:25][A]  
+2016/02/22 13:26:44 [user.go:36][A] { } 
+2016/02/22 13:26:44 [router.go:828][D] | GET        | /user/login                              | 244.052µs        | match      | /user/login/*                            | 
+2016/02/22 13:27:02 [user.go:17][A] POST ------------- 
+2016/02/22 13:27:02 [user.go:22][A] user --- login 
+2016/02/22 13:27:02 [user.go:24][A] [117 115 101 114 78 97 109 101 61 97 97 97 97] 
+2016/02/22 13:27:02 [user.go:25][A] aaaa 
+2016/02/22 13:27:02 [user.go:36][A] { } 
+2016/02/22 13:27:02 [router.go:828][D] | POST       | /user/login                              | 199.055µs        | match      | /user/login/*                            | 
+2016/02/22 13:27:06 [user.go:17][A] PUT ------------- 
+2016/02/22 13:27:06 [user.go:22][A] user --- login 
+2016/02/22 13:27:06 [user.go:24][A] [117 115 101 114 78 97 109 101 61 97 97 97 97] 
+2016/02/22 13:27:06 [user.go:25][A] aaaa 
+2016/02/22 13:27:06 [user.go:36][A] { } 
+2016/02/22 13:27:06 [router.go:828][D] | PUT        | /user/login                              | 194.774µs        | match      | /user/login/*                            | 
+2016/02/22 13:27:12 [user.go:17][A] DELETE ------------- 
+2016/02/22 13:27:12 [user.go:22][A] user --- login 
+2016/02/22 13:27:12 [user.go:24][A] [] 
+2016/02/22 13:27:12 [user.go:25][A]  
+2016/02/22 13:27:12 [user.go:36][A] { } 
+2016/02/22 13:27:12 [router.go:828][D] | DELETE     | /user/login                              | 119.696µs        | match      | /user/login/*                            | 
+2016/02/22 13:27:17 [user.go:17][A] HEAD ------------- 
+2016/02/22 13:27:17 [user.go:22][A] user --- login 
+2016/02/22 13:27:17 [user.go:24][A] [] 
+2016/02/22 13:27:17 [user.go:25][A]  
+2016/02/22 13:27:17 [user.go:36][A] { } 
+2016/02/22 13:27:17 [router.go:828][D] | HEAD       | /user/login                              | 112.449µs        | match      | /user/login/*                            | 
+2016/02/22 13:27:22 [user.go:17][A] OPTIONS ------------- 
+2016/02/22 13:27:22 [user.go:22][A] user --- login 
+2016/02/22 13:27:22 [user.go:24][A] [] 
+2016/02/22 13:27:22 [user.go:25][A]  
+2016/02/22 13:27:22 [user.go:36][A] { } 
+2016/02/22 13:27:22 [router.go:828][D] | OPTIONS    | /user/login                              | 111.133µs        | match      | /user/login/*                            | 
+2016/02/22 13:27:25 [user.go:17][A] PATCH ------------- 
+2016/02/22 13:27:25 [user.go:22][A] user --- login 
+2016/02/22 13:27:25 [user.go:24][A] [117 115 101 114 78 97 109 101 61 97 97 97 97] 
+2016/02/22 13:27:25 [user.go:25][A] aaaa 
+2016/02/22 13:27:25 [user.go:36][A] { } 
+2016/02/22 13:27:25 [router.go:828][D] | PATCH      | /user/login                              | 132.015µs        | match      | /user/login/*                            | 
+2016/02/22 13:27:48 [user.go:17][A] PATCH ------------- 
+2016/02/22 13:27:48 [user.go:22][A] user --- login 
+2016/02/22 13:27:48 [user.go:24][A] [85 115 101 114 78 97 109 101 61 97 97 97 97] 
+2016/02/22 13:27:48 [user.go:25][A]  
+2016/02/22 13:27:48 [user.go:36][A] { } 
+2016/02/22 13:27:48 [router.go:828][D] | PATCH      | /user/login                              | 176.371µs        | match      | /user/login/*                            | 
+2016/02/22 13:27:54 [user.go:17][A] PATCH ------------- 
+2016/02/22 13:27:54 [user.go:22][A] user --- login 
+2016/02/22 13:27:54 [user.go:24][A] [85 115 101 114 78 97 109 101 61 97 97 97 97] 
+2016/02/22 13:27:54 [user.go:25][A]  
+2016/02/22 13:27:54 [user.go:36][A] { } 
+2016/02/22 13:27:54 [router.go:828][D] | PATCH      | /user/login                              | 119.705µs        | match      | /user/login/*                            | 
+2016/02/22 13:28:01 [user.go:17][A] PATCH ------------- 
+2016/02/22 13:28:01 [user.go:22][A] user --- login 
+2016/02/22 13:28:01 [user.go:24][A] [117 115 101 114 78 97 109 101 61 97 97 97 97] 
+2016/02/22 13:28:01 [user.go:25][A] aaaa 
+2016/02/22 13:28:01 [user.go:36][A] { } 
+2016/02/22 13:28:01 [router.go:828][D] | PATCH      | /user/login                              | 187.982µs        | match      | /user/login/*                            | 
+2016/02/22 13:28:06 [user.go:17][A] PATCH ------------- 
+2016/02/22 13:28:06 [user.go:22][A] user --- login 
+2016/02/22 13:28:06 [user.go:24][A] [117 115 101 114 110 97 109 101 61 97 97 97 97] 
+2016/02/22 13:28:06 [user.go:25][A]  
+2016/02/22 13:28:06 [user.go:36][A] { } 
+2016/02/22 13:28:06 [router.go:828][D] | PATCH      | /user/login                              | 109.295µs        | match      | /user/login/*                            | 
+2016/02/22 13:28:07 [user.go:17][A] PATCH ------------- 
+2016/02/22 13:28:07 [user.go:22][A] user --- login 
+2016/02/22 13:28:07 [user.go:24][A] [117 115 101 114 110 97 109 101 61 97 97 97 97] 
+2016/02/22 13:28:07 [user.go:25][A]  
+2016/02/22 13:28:07 [user.go:36][A] { } 
+2016/02/22 13:28:07 [router.go:828][D] | PATCH      | /user/login                              | 126.641µs        | match      | /user/login/*                            | 
+2016/02/22 13:28:21 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/22 13:28:23 [user.go:17][A] PATCH ------------- 
+2016/02/22 13:28:23 [user.go:22][A] user --- login 
+2016/02/22 13:28:23 [user.go:24][A] [117 115 101 114 110 97 109 101 61 97 97 97 97] 
+2016/02/22 13:28:23 [user.go:25][A] aaaa 
+2016/02/22 13:28:23 [user.go:36][A] { } 
+2016/02/22 13:28:23 [router.go:828][D] | PATCH      | /user/login                              | 350.298µs        | match      | /user/login/*                            | 
+2016/02/22 13:28:36 [user.go:17][A] POST ------------- 
+2016/02/22 13:28:36 [user.go:22][A] user --- login 
+2016/02/22 13:28:36 [user.go:24][A] [117 115 101 114 110 97 109 101 61 97 97 97 97] 
+2016/02/22 13:28:36 [user.go:25][A] aaaa 
+2016/02/22 13:28:36 [user.go:36][A] { } 
+2016/02/22 13:28:36 [router.go:828][D] | POST       | /user/login                              | 147.631µs        | match      | /user/login/*                            | 
+2016/02/22 13:30:16 [user.go:17][A] POST ------------- 
+2016/02/22 13:30:16 [user.go:22][A] user --- login 
+2016/02/22 13:30:16 [user.go:24][A] [117 115 101 114 110 97 109 101 61 97 97 97 97] 
+2016/02/22 13:30:16 [user.go:25][A]  
+2016/02/22 13:30:16 [user.go:36][A] { } 
+2016/02/22 13:30:16 [router.go:828][D] | POST       | /user/login                              | 178.976µs        | match      | /user/login/*                            | 
+2016/02/22 13:31:04 [user.go:17][A] POST ------------- 
+2016/02/22 13:31:04 [user.go:22][A] user --- login 
+2016/02/22 13:31:04 [user.go:24][A] [123 34 117 115 101 114 110 97 109 101 34 58 34 108 105 99 104 101 49 49 34 125] 
+2016/02/22 13:31:04 [user.go:25][A]  
+2016/02/22 13:31:04 [user.go:36][A] {liche11 } 
+2016/02/22 13:31:04 [router.go:828][D] | POST       | /user/login                              | 139.383µs        | match      | /user/login/*                            | 
+2016/02/22 13:31:27 [user.go:17][A] POST ------------- 
+2016/02/22 13:31:27 [user.go:22][A] user --- login 
+2016/02/22 13:31:27 [user.go:24][A] [117 115 101 114 110 97 109 101 61 97 97 97 97] 
+2016/02/22 13:31:27 [user.go:25][A]  
+2016/02/22 13:31:27 [user.go:36][A] { } 
+2016/02/22 13:31:27 [router.go:828][D] | POST       | /user/login                              | 129.37µs         | match      | /user/login/*                            | 
+2016/02/22 13:31:40 [user.go:17][A] POST ------------- 
+2016/02/22 13:31:40 [user.go:22][A] user --- login 
+2016/02/22 13:31:40 [user.go:24][A] [117 115 101 114 110 97 109 101 61 97 97 97 97] 
+2016/02/22 13:31:40 [user.go:25][A]  
+2016/02/22 13:31:40 [user.go:36][A] { } 
+2016/02/22 13:31:40 [router.go:828][D] | POST       | /user/login                              | 137.276µs        | match      | /user/login/*                            | 
+2016/02/22 13:32:00 [user.go:17][A] POST ------------- 
+2016/02/22 13:32:00 [user.go:22][A] user --- login 
+2016/02/22 13:32:00 [user.go:24][A] [117 115 101 114 110 97 109 101 61 97 97 97 97] 
+2016/02/22 13:32:00 [user.go:25][A] aaaa 
+2016/02/22 13:32:00 [user.go:36][A] { } 
+2016/02/22 13:32:00 [router.go:828][D] | POST       | /user/login                              | 215.893µs        | match      | /user/login/*                            | 
+2016/02/22 13:32:16 [user.go:17][A] POST ------------- 
+2016/02/22 13:32:16 [user.go:22][A] user --- login 
+2016/02/22 13:32:16 [user.go:24][A] [] 
+2016/02/22 13:32:16 [user.go:25][A]  
+2016/02/22 13:32:16 [user.go:36][A] { } 
+2016/02/22 13:32:16 [router.go:828][D] | POST       | /user/login                              | 131.392µs        | match      | /user/login/*                            | 
+2016/02/22 13:32:23 [user.go:17][A] POST ------------- 
+2016/02/22 13:32:23 [user.go:22][A] user --- login 
+2016/02/22 13:32:23 [user.go:24][A] [] 
+2016/02/22 13:32:23 [user.go:25][A]  
+2016/02/22 13:32:23 [user.go:36][A] { } 
+2016/02/22 13:32:23 [router.go:828][D] | POST       | /user/login                              | 147.376µs        | match      | /user/login/*                            | 
+2016/02/22 13:32:26 [user.go:17][A] POST ------------- 
+2016/02/22 13:32:26 [user.go:22][A] user --- login 
+2016/02/22 13:32:26 [user.go:24][A] [] 
+2016/02/22 13:32:26 [user.go:25][A]  
+2016/02/22 13:32:26 [user.go:36][A] { } 
+2016/02/22 13:32:26 [router.go:828][D] | POST       | /user/login                              | 121.101µs        | match      | /user/login/*                            | 
+2016/02/22 13:32:34 [user.go:17][A] POST ------------- 
+2016/02/22 13:32:34 [user.go:22][A] user --- login 
+2016/02/22 13:32:34 [user.go:24][A] [] 
+2016/02/22 13:32:34 [user.go:25][A]  
+2016/02/22 13:32:34 [user.go:36][A] { } 
+2016/02/22 13:32:34 [router.go:828][D] | POST       | /user/login                              | 195.157µs        | match      | /user/login/*                            | 
+2016/02/22 13:32:38 [user.go:17][A] POST ------------- 
+2016/02/22 13:32:38 [user.go:22][A] user --- login 
+2016/02/22 13:32:38 [user.go:24][A] [] 
+2016/02/22 13:32:38 [user.go:25][A]  
+2016/02/22 13:32:38 [user.go:36][A] { } 
+2016/02/22 13:32:38 [router.go:828][D] | POST       | /user/login                              | 154.301µs        | match      | /user/login/*                            | 
+2016/02/22 13:32:43 [user.go:17][A] POST ------------- 
+2016/02/22 13:32:43 [user.go:22][A] user --- login 
+2016/02/22 13:32:43 [user.go:24][A] [117 115 101 114 110 97 109 101 61 97 97 97 97] 
+2016/02/22 13:32:43 [user.go:25][A] aaaa 
+2016/02/22 13:32:43 [user.go:36][A] { } 
+2016/02/22 13:32:43 [router.go:828][D] | POST       | /user/login                              | 153.633µs        | match      | /user/login/*                            | 
+2016/02/22 13:32:46 [user.go:17][A] POST ------------- 
+2016/02/22 13:32:46 [user.go:22][A] user --- login 
+2016/02/22 13:32:46 [user.go:24][A] [117 115 101 114 110 97 109 101 61 97 97 97 97] 
+2016/02/22 13:32:46 [user.go:25][A] aaaa 
+2016/02/22 13:32:46 [user.go:36][A] { } 
+2016/02/22 13:32:46 [router.go:828][D] | POST       | /user/login                              | 125.325µs        | match      | /user/login/*                            | 
+2016/02/22 13:32:55 [user.go:17][A] POST ------------- 
+2016/02/22 13:32:55 [user.go:22][A] user --- login 
+2016/02/22 13:32:55 [user.go:24][A] [117 115 101 114 110 97 109 101 61 97 97 97 97] 
+2016/02/22 13:32:55 [user.go:25][A] aaaa 
+2016/02/22 13:32:55 [user.go:36][A] { } 
+2016/02/22 13:32:55 [router.go:828][D] | POST       | /user/login                              | 124.643µs        | match      | /user/login/*                            | 
+2016/02/22 13:32:59 [user.go:17][A] POST ------------- 
+2016/02/22 13:32:59 [user.go:22][A] user --- login 
+2016/02/22 13:32:59 [user.go:24][A] [117 115 101 114 110 97 109 101 61 97 97 97 97] 
+2016/02/22 13:32:59 [user.go:25][A] aaaa 
+2016/02/22 13:32:59 [user.go:36][A] { } 
+2016/02/22 13:32:59 [router.go:828][D] | POST       | /user/login                              | 109.445µs        | match      | /user/login/*                            | 
+2016/02/22 13:33:05 [user.go:17][A] POST ------------- 
+2016/02/22 13:33:05 [user.go:22][A] user --- login 
+2016/02/22 13:33:05 [user.go:24][A] [117 115 101 114 110 97 109 101 61 97 97 97 97] 
+2016/02/22 13:33:05 [user.go:25][A] aaaa 
+2016/02/22 13:33:05 [user.go:36][A] { } 
+2016/02/22 13:33:05 [router.go:828][D] | POST       | /user/login                              | 158.165µs        | match      | /user/login/*                            | 
+2016/02/22 13:33:09 [user.go:17][A] POST ------------- 
+2016/02/22 13:33:09 [user.go:22][A] user --- login 
+2016/02/22 13:33:09 [user.go:24][A] [117 115 101 114 110 97 109 101 61 97 97 97 97] 
+2016/02/22 13:33:09 [user.go:25][A] aaaa 
+2016/02/22 13:33:09 [user.go:36][A] { } 
+2016/02/22 13:33:09 [router.go:828][D] | POST       | /user/login                              | 122.785µs        | match      | /user/login/*                            | 
+2016/02/22 13:33:16 [user.go:17][A] POST ------------- 
+2016/02/22 13:33:16 [user.go:22][A] user --- login 
+2016/02/22 13:33:16 [user.go:24][A] [] 
+2016/02/22 13:33:16 [user.go:25][A] aaaa 
+2016/02/22 13:33:16 [user.go:36][A] { } 
+2016/02/22 13:33:16 [router.go:828][D] | POST       | /user/login                              | 162.833µs        | match      | /user/login/*                            | 
+2016/02/22 13:33:26 [user.go:17][A] POST ------------- 
+2016/02/22 13:33:26 [user.go:22][A] user --- login 
+2016/02/22 13:33:26 [user.go:24][A] [117 115 101 114 110 97 109 101 61 97 97 97 97] 
+2016/02/22 13:33:26 [user.go:25][A] aaaa 
+2016/02/22 13:33:26 [user.go:36][A] { } 
+2016/02/22 13:33:26 [router.go:828][D] | POST       | /user/login                              | 178.398µs        | match      | /user/login/*                            | 
+2016/02/22 13:34:05 [user.go:17][A] POST ------------- 
+2016/02/22 13:34:05 [user.go:22][A] user --- login 
+2016/02/22 13:34:05 [user.go:24][A] [117 115 101 114 110 97 109 101 61 97 97 97 97] 
+2016/02/22 13:34:05 [user.go:25][A] aaaa 
+2016/02/22 13:34:05 [user.go:36][A] { } 
+2016/02/22 13:34:05 [router.go:828][D] | POST       | /user/login                              | 159.938µs        | match      | /user/login/*                            | 
+2016/02/22 13:36:20 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/22 13:36:21 [user.go:17][A] POST ------------- 
+2016/02/22 13:36:21 [user.go:18][A] params===  
+2016/02/22 13:36:21 [user.go:23][A] user --- login 
+2016/02/22 13:36:21 [user.go:25][A] [117 115 101 114 110 97 109 101 61 97 97 97 97] 
+2016/02/22 13:36:21 [user.go:26][A] aaaa 
+2016/02/22 13:36:21 [user.go:37][A] { } 
+2016/02/22 13:36:21 [router.go:828][D] | POST       | /user/login                              | 292.355µs        | match      | /user/login/*                            | 
+2016/02/22 13:36:27 [user.go:17][A] GET ------------- 
+2016/02/22 13:36:27 [user.go:18][A] params===  
+2016/02/22 13:36:27 [user.go:23][A] user --- login 
+2016/02/22 13:36:27 [user.go:25][A] [] 
+2016/02/22 13:36:27 [user.go:26][A]  
+2016/02/22 13:36:27 [user.go:37][A] { } 
+2016/02/22 13:36:27 [router.go:828][D] | GET        | /user/login                              | 210.792µs        | match      | /user/login/*                            | 
+2016/02/22 13:36:36 [user.go:17][A] GET ------------- 
+2016/02/22 13:36:36 [user.go:18][A] params===  
+2016/02/22 13:36:36 [user.go:23][A] user --- login 
+2016/02/22 13:36:36 [user.go:25][A] [] 
+2016/02/22 13:36:36 [user.go:26][A]  
+2016/02/22 13:36:36 [user.go:37][A] { } 
+2016/02/22 13:36:36 [router.go:828][D] | GET        | /user/login/liche2222                    | 138.827µs        | match      | /user/login/*                            | 
+2016/02/22 13:37:05 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/22 13:37:07 [user.go:17][A] GET ------------- 
+2016/02/22 13:37:07 [user.go:18][A] params===  
+2016/02/22 13:37:07 [user.go:23][A] user --- login 
+2016/02/22 13:37:07 [user.go:25][A] [] 
+2016/02/22 13:37:07 [user.go:26][A]  
+2016/02/22 13:37:07 [user.go:37][A] { } 
+2016/02/22 13:37:07 [router.go:828][D] | GET        | /user/login/liche2222                    | 220.192µs        | match      | /user/login/*                            | 
+2016/02/22 13:38:06 [user.go:17][A] GET ------------- 
+2016/02/22 13:38:06 [user.go:18][A] params===  
+2016/02/22 13:38:06 [user.go:23][A] user --- login 
+2016/02/22 13:38:06 [user.go:25][A] [] 
+2016/02/22 13:38:06 [user.go:26][A]  
+2016/02/22 13:38:06 [user.go:37][A] { } 
+2016/02/22 13:38:06 [router.go:828][D] | GET        | /user/login                              | 136.533µs        | match      | /user/login/*                            | 
+2016/02/22 13:38:16 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/22 13:38:18 [user.go:17][A] GET ------------- 
+2016/02/22 13:38:18 [user.go:18][A] params===  
+2016/02/22 13:38:18 [user.go:23][A] user --- login 
+2016/02/22 13:38:18 [user.go:25][A] [] 
+2016/02/22 13:38:18 [user.go:26][A]  
+2016/02/22 13:38:18 [user.go:37][A] { } 
+2016/02/22 13:38:18 [router.go:828][D] | GET        | /user/login                              | 227.856µs        | match      | /user/login/*                            | 
+2016/02/22 13:38:31 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/22 13:38:33 [user.go:17][A] GET ------------- 
+2016/02/22 13:38:33 [user.go:18][A] params=== aaabbb 
+2016/02/22 13:38:33 [user.go:23][A] user --- login 
+2016/02/22 13:38:33 [user.go:25][A] [] 
+2016/02/22 13:38:33 [user.go:26][A]  
+2016/02/22 13:38:33 [user.go:37][A] { } 
+2016/02/22 13:38:33 [router.go:828][D] | GET        | /user/login                              | 246.449µs        | match      | /user/login/*                            | 
+2016/02/22 14:12:15 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/22 14:12:54 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/22 14:12:57 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/22 14:13:09 [user.go:18][A] GET ------------- 
+2016/02/22 14:13:09 [user.go:19][A] params=== aaabbb 
+2016/02/22 14:13:09 [user.go:24][A] user --- login 
+2016/02/22 14:13:09 [user.go:26][A] [] 
+2016/02/22 14:13:09 [user.go:27][A]  
+2016/02/22 14:13:09 [user.go:38][A] { } 
+2016/02/22 14:13:09 [router.go:828][D] | GET        | /user/login                              | 237.193µs        | match      | /user/login                              | 
+2016/02/22 14:13:32 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/22 14:13:35 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/22 14:13:36 [router.go:828][D] | GET        | /user/login                              | 702.241µs        | notmatch   | 
+2016/02/22 14:13:43 [router.go:828][D] | POST       | /user/login                              | 438.416µs        | notmatch   | 
+2016/02/22 14:13:54 [router.go:828][D] | POST       | /user/login                              | 355.129µs        | notmatch   | 
+2016/02/22 14:14:14 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/22 14:14:17 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/22 14:14:18 [router.go:828][D] | POST       | /user/login                              | 597.576µs        | notmatch   | 
+2016/02/22 15:13:29 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/22 15:13:36 [user.go:18][A] POST ------------- 
+2016/02/22 15:13:36 [user.go:19][A] params=== aaaa 
+2016/02/22 15:13:36 [user.go:24][A] user --- login 
+2016/02/22 15:13:36 [user.go:26][A] [117 115 101 114 110 97 109 101 61 97 97 97 97] 
+2016/02/22 15:13:36 [user.go:27][A] aaaa 
+2016/02/22 15:13:36 [user.go:38][A] { } 
+2016/02/22 15:13:36 [router.go:828][D] | POST       | /user/login                              | 237.672µs        | match      | /user/login/*                            | 
+2016/02/22 15:13:45 [user.go:18][A] GET ------------- 
+2016/02/22 15:13:45 [user.go:19][A] params===  
+2016/02/22 15:13:45 [user.go:24][A] user --- login 
+2016/02/22 15:13:45 [user.go:26][A] [] 
+2016/02/22 15:13:45 [user.go:27][A]  
+2016/02/22 15:13:45 [user.go:38][A] { } 
+2016/02/22 15:13:45 [router.go:828][D] | GET        | /user/login                              | 121.887µs        | match      | /user/login/*                            | 
+2016/02/22 15:14:08 [user.go:18][A] GET ------------- 
+2016/02/22 15:14:08 [user.go:19][A] params=== aaabbb 
+2016/02/22 15:14:08 [user.go:24][A] user --- login 
+2016/02/22 15:14:08 [user.go:26][A] [] 
+2016/02/22 15:14:08 [user.go:27][A] aaabbb 
+2016/02/22 15:14:08 [user.go:38][A] { } 
+2016/02/22 15:14:08 [router.go:828][D] | GET        | /user/login                              | 162.919µs        | match      | /user/login/*                            | 
+2016/02/22 15:15:08 [user.go:18][A] GET ------------- 
+2016/02/22 15:15:08 [user.go:19][A] params=== aaabbb 
+2016/02/22 15:15:08 [user.go:24][A] user --- login 
+2016/02/22 15:15:08 [user.go:26][A] [] 
+2016/02/22 15:15:08 [user.go:27][A] aaabbb 
+2016/02/22 15:15:08 [user.go:38][A] { } 
+2016/02/22 15:15:08 [router.go:828][D] | GET        | /user/login                              | 100.952µs        | match      | /user/login/*                            | 
+2016/02/22 15:15:41 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/22 15:15:49 [user.go:18][A] GET ------------- 
+2016/02/22 15:15:49 [user.go:19][A] params=== aaabbb 
+2016/02/22 15:15:49 [user.go:24][A] user --- login 
+2016/02/22 15:15:49 [user.go:26][A] [] 
+2016/02/22 15:15:49 [user.go:37][A] { } 
+2016/02/22 15:15:49 [router.go:828][D] | GET        | /user/login                              | 224.201µs        | match      | /user/login/*                            | 
+2016/02/22 15:16:21 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/22 15:16:24 [user.go:18][A] GET ------------- 
+2016/02/22 15:16:24 [user.go:19][A] params=== aaabbb 
+2016/02/22 15:16:24 [user.go:20][A] UserController Login 
+2016/02/22 15:16:24 [user.go:24][A] user --- login 
+2016/02/22 15:16:24 [user.go:26][A] [] 
+2016/02/22 15:16:24 [user.go:37][A] { } 
+2016/02/22 15:16:24 [router.go:828][D] | GET        | /user/login                              | 235.141µs        | match      | /user/login/*                            | 
+2016/02/22 15:34:59 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/22 15:42:47 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/22 15:42:59 [user.go:19][A] GET ------------- 
+2016/02/22 15:42:59 [user.go:20][A] params=== aaabbb 
+2016/02/22 15:42:59 [user.go:21][A] UserController Login 
+2016/02/22 15:42:59 [user.go:25][A] user --- login 
+2016/02/22 15:42:59 [user.go:27][A] [] 
+2016/02/22 15:42:59 [user.go:38][A] { } 
+2016/02/22 15:42:59 [router.go:828][D] | GET        | /user/login                              | 247.744µs        | match      | /user/login/*                            | 
+2016/02/22 15:44:06 [user.go:19][A] POST ------------- 
+2016/02/22 15:44:06 [user.go:20][A] params=== aaabbb 
+2016/02/22 15:44:06 [user.go:21][A] UserController Login 
+2016/02/22 15:44:06 [user.go:25][A] user --- login 
+2016/02/22 15:44:06 [user.go:27][A] [123 34 117 115 101 114 110 97 109 101 34 58 34 108 105 99 104 101 34 44 34 117 115 101 114 105 100 34 58 34 51 51 51 51 34 125] 
+2016/02/22 15:44:06 [user.go:38][A] {liche 3333} 
+2016/02/22 15:44:06 [router.go:828][D] | POST       | /user/login                              | 220.822µs        | match      | /user/login/*                            | 
+2016/02/22 15:44:40 [user.go:19][A] POST ------------- 
+2016/02/22 15:44:40 [user.go:20][A] params=== aaabbb 
+2016/02/22 15:44:40 [user.go:21][A] UserController Login 
+2016/02/22 15:44:40 [user.go:25][A] user --- login 
+2016/02/22 15:44:40 [user.go:27][A] [123 34 117 115 101 114 110 97 109 101 34 58 34 108 105 99 104 101 34 44 34 117 115 101 114 105 100 34 58 34 51 51 51 51 34 125] 
+2016/02/22 15:44:40 [user.go:38][A] {liche 3333} 
+2016/02/22 15:44:40 [router.go:828][D] | POST       | /user/login                              | 209.424µs        | match      | /user/login/*                            | 
+2016/02/22 15:44:50 [user.go:19][A] POST ------------- 
+2016/02/22 15:44:50 [user.go:20][A] params=== aaabbb 
+2016/02/22 15:44:50 [user.go:21][A] UserController Login 
+2016/02/22 15:44:50 [user.go:25][A] user --- login 
+2016/02/22 15:44:50 [user.go:27][A] [123 34 117 115 101 114 110 97 109 101 34 58 34 108 105 99 104 101 34 44 34 117 115 101 114 105 100 34 58 34 49 49 49 49 34 125] 
+2016/02/22 15:44:50 [user.go:38][A] {liche 1111} 
+2016/02/22 15:44:50 [router.go:828][D] | POST       | /user/login                              | 180.408µs        | match      | /user/login/*                            | 
+2016/02/22 15:45:54 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/22 16:39:25 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/24 09:55:13 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/24 09:55:28 [router.go:828][D] | GET        | /                                        | 4.204921ms       | match      | /                                        | 
+2016/02/24 09:57:20 [router.go:828][D] | GET        | /                                        | 4.228519ms       | match      | /                                        | 
+2016/02/24 09:57:21 [router.go:828][D] | GET        | /                                        | 5.293498ms       | match      | /                                        | 
+2016/02/24 09:58:53 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/24 09:58:57 [router.go:828][D] | GET        | /                                        | 10.372634ms      | match      | /                                        | 
+2016/02/24 09:59:31 [router.go:828][D] | GET        | /                                        | 11.428008ms      | match      | /                                        | 
+2016/02/24 10:00:05 [router.go:828][D] | GET        | /                                        | 12.188918ms      | match      | /                                        | 
+2016/02/24 10:00:59 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/24 10:01:08 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/24 10:01:10 [router.go:828][D] | GET        | /                                        | 12.199661ms      | match      | /                                        | 
+2016/02/24 10:01:11 [router.go:828][D] | GET        | /                                        | 11.213494ms      | match      | /                                        | 
+2016/02/24 10:01:31 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/24 10:01:33 [router.go:828][D] | GET        | /                                        | 11.832891ms      | match      | /                                        | 
+2016/02/24 10:01:35 [router.go:828][D] | GET        | /                                        | 11.766097ms      | match      | /                                        | 
+2016/02/24 10:01:37 [router.go:828][D] | GET        | /                                        | 11.449744ms      | match      | /                                        | 
+2016/02/24 10:01:58 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/24 10:02:00 [router.go:828][D] | GET        | /                                        | 11.276599ms      | match      | /                                        | 
+2016/02/24 10:02:13 [router.go:828][D] | GET        | /                                        | 10.865683ms      | match      | /                                        | 
+2016/02/24 10:02:17 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/24 10:02:18 [router.go:828][D] | GET        | /                                        | 11.583798ms      | match      | /                                        | 
+2016/02/24 10:02:48 [template.go:151][D] parse template err: index.tpl template: index.tpl:86: unexpected "[" in command 
+2016/02/24 10:02:48 [router.go:828][D] | GET        | /                                        | 2.26035ms        | match      | /                                        | 
+2016/02/24 10:02:49 [template.go:151][D] parse template err: index.tpl template: index.tpl:86: unexpected "[" in command 
+2016/02/24 10:02:49 [router.go:828][D] | GET        | /                                        | 2.902824ms       | match      | /                                        | 
+2016/02/24 10:02:51 [template.go:151][D] parse template err: index.tpl template: index.tpl:86: unexpected "[" in command 
+2016/02/24 10:02:51 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/24 10:02:53 [template.go:151][D] parse template err: index.tpl template: index.tpl:86: unexpected "[" in command 
+2016/02/24 10:02:53 [router.go:853][C] the request url is  / 
+2016/02/24 10:02:53 [router.go:854][C] Handler crashed with error can't find templatefile in the path:index.tpl 
+2016/02/24 10:02:53 [router.go:860][C] /usr/local/go/src/runtime/asm_amd64.s:437 
+2016/02/24 10:02:53 [router.go:860][C] /usr/local/go/src/runtime/panic.go:423 
+2016/02/24 10:02:53 [router.go:860][C] /Users/liche/Applications/Go/src/github.com/astaxie/beego/controller.go:262 
+2016/02/24 10:02:53 [router.go:860][C] /Users/liche/Applications/Go/src/github.com/astaxie/beego/controller.go:183 
+2016/02/24 10:02:53 [router.go:860][C] /Users/liche/Applications/Go/src/github.com/astaxie/beego/router.go:784 
+2016/02/24 10:02:53 [router.go:860][C] /usr/local/go/src/net/http/server.go:1862 
+2016/02/24 10:02:53 [router.go:860][C] /usr/local/go/src/net/http/server.go:1361 
+2016/02/24 10:02:53 [router.go:860][C] /usr/local/go/src/runtime/asm_amd64.s:1696 
+2016/02/24 10:02:53 [staticfile.go:51][W] Can't find/open the file:  /favicon.ico file not find 
+2016/02/24 10:03:37 [template.go:151][D] parse template err: index.tpl template: index.tpl:86: unexpected "[" in command 
+2016/02/24 10:03:37 [router.go:853][C] the request url is  / 
+2016/02/24 10:03:37 [router.go:854][C] Handler crashed with error can't find templatefile in the path:index.tpl 
+2016/02/24 10:03:37 [router.go:860][C] /usr/local/go/src/runtime/asm_amd64.s:437 
+2016/02/24 10:03:37 [router.go:860][C] /usr/local/go/src/runtime/panic.go:423 
+2016/02/24 10:03:37 [router.go:860][C] /Users/liche/Applications/Go/src/github.com/astaxie/beego/controller.go:262 
+2016/02/24 10:03:37 [router.go:860][C] /Users/liche/Applications/Go/src/github.com/astaxie/beego/controller.go:183 
+2016/02/24 10:03:37 [router.go:860][C] /Users/liche/Applications/Go/src/github.com/astaxie/beego/router.go:784 
+2016/02/24 10:03:37 [router.go:860][C] /usr/local/go/src/net/http/server.go:1862 
+2016/02/24 10:03:37 [router.go:860][C] /usr/local/go/src/net/http/server.go:1361 
+2016/02/24 10:03:37 [router.go:860][C] /usr/local/go/src/runtime/asm_amd64.s:1696 
+2016/02/24 10:03:49 [template.go:151][D] parse template err: index.tpl template: index.tpl:86: unexpected "[" in command 
+2016/02/24 10:03:49 [router.go:853][C] the request url is  / 
+2016/02/24 10:03:49 [router.go:854][C] Handler crashed with error can't find templatefile in the path:index.tpl 
+2016/02/24 10:03:49 [router.go:860][C] /usr/local/go/src/runtime/asm_amd64.s:437 
+2016/02/24 10:03:49 [router.go:860][C] /usr/local/go/src/runtime/panic.go:423 
+2016/02/24 10:03:49 [router.go:860][C] /Users/liche/Applications/Go/src/github.com/astaxie/beego/controller.go:262 
+2016/02/24 10:03:49 [router.go:860][C] /Users/liche/Applications/Go/src/github.com/astaxie/beego/controller.go:183 
+2016/02/24 10:03:49 [router.go:860][C] /Users/liche/Applications/Go/src/github.com/astaxie/beego/router.go:784 
+2016/02/24 10:03:49 [router.go:860][C] /usr/local/go/src/net/http/server.go:1862 
+2016/02/24 10:03:49 [router.go:860][C] /usr/local/go/src/net/http/server.go:1361 
+2016/02/24 10:03:49 [router.go:860][C] /usr/local/go/src/runtime/asm_amd64.s:1696 
+2016/02/24 10:03:50 [template.go:151][D] parse template err: index.tpl template: index.tpl:86: unexpected "[" in command 
+2016/02/24 10:03:50 [router.go:853][C] the request url is  / 
+2016/02/24 10:03:50 [router.go:854][C] Handler crashed with error can't find templatefile in the path:index.tpl 
+2016/02/24 10:03:50 [router.go:860][C] /usr/local/go/src/runtime/asm_amd64.s:437 
+2016/02/24 10:03:50 [router.go:860][C] /usr/local/go/src/runtime/panic.go:423 
+2016/02/24 10:03:50 [router.go:860][C] /Users/liche/Applications/Go/src/github.com/astaxie/beego/controller.go:262 
+2016/02/24 10:03:50 [router.go:860][C] /Users/liche/Applications/Go/src/github.com/astaxie/beego/controller.go:183 
+2016/02/24 10:03:50 [router.go:860][C] /Users/liche/Applications/Go/src/github.com/astaxie/beego/router.go:784 
+2016/02/24 10:03:50 [router.go:860][C] /usr/local/go/src/net/http/server.go:1862 
+2016/02/24 10:03:50 [router.go:860][C] /usr/local/go/src/net/http/server.go:1361 
+2016/02/24 10:03:50 [router.go:860][C] /usr/local/go/src/runtime/asm_amd64.s:1696 
+2016/02/24 10:03:54 [template.go:151][D] parse template err: index.tpl template: index.tpl:86: unexpected "[" in command 
+2016/02/24 10:03:54 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/24 10:03:55 [template.go:151][D] parse template err: index.tpl template: index.tpl:86: unexpected "[" in command 
+2016/02/24 10:03:55 [router.go:853][C] the request url is  / 
+2016/02/24 10:03:55 [router.go:854][C] Handler crashed with error can't find templatefile in the path:index.tpl 
+2016/02/24 10:03:55 [router.go:860][C] /usr/local/go/src/runtime/asm_amd64.s:437 
+2016/02/24 10:03:55 [router.go:860][C] /usr/local/go/src/runtime/panic.go:423 
+2016/02/24 10:03:55 [router.go:860][C] /Users/liche/Applications/Go/src/github.com/astaxie/beego/controller.go:262 
+2016/02/24 10:03:55 [router.go:860][C] /Users/liche/Applications/Go/src/github.com/astaxie/beego/controller.go:183 
+2016/02/24 10:03:55 [router.go:860][C] /Users/liche/Applications/Go/src/github.com/astaxie/beego/router.go:784 
+2016/02/24 10:03:55 [router.go:860][C] /usr/local/go/src/net/http/server.go:1862 
+2016/02/24 10:03:55 [router.go:860][C] /usr/local/go/src/net/http/server.go:1361 
+2016/02/24 10:03:55 [router.go:860][C] /usr/local/go/src/runtime/asm_amd64.s:1696 
+2016/02/24 10:04:01 [template.go:151][D] parse template err: index.tpl template: index.tpl:86: unexpected "[" in command 
+2016/02/24 10:04:01 [router.go:853][C] the request url is  / 
+2016/02/24 10:04:01 [router.go:854][C] Handler crashed with error can't find templatefile in the path:index.tpl 
+2016/02/24 10:04:01 [router.go:860][C] /usr/local/go/src/runtime/asm_amd64.s:437 
+2016/02/24 10:04:01 [router.go:860][C] /usr/local/go/src/runtime/panic.go:423 
+2016/02/24 10:04:01 [router.go:860][C] /Users/liche/Applications/Go/src/github.com/astaxie/beego/controller.go:262 
+2016/02/24 10:04:01 [router.go:860][C] /Users/liche/Applications/Go/src/github.com/astaxie/beego/controller.go:183 
+2016/02/24 10:04:01 [router.go:860][C] /Users/liche/Applications/Go/src/github.com/astaxie/beego/router.go:784 
+2016/02/24 10:04:01 [router.go:860][C] /usr/local/go/src/net/http/server.go:1862 
+2016/02/24 10:04:01 [router.go:860][C] /usr/local/go/src/net/http/server.go:1361 
+2016/02/24 10:04:01 [router.go:860][C] /usr/local/go/src/runtime/asm_amd64.s:1696 
+2016/02/24 10:04:26 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/24 10:04:27 [router.go:828][D] | GET        | /                                        | 11.817037ms      | match      | /                                        | 
+2016/02/24 10:04:37 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/24 10:04:47 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/24 11:56:28 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/24 11:56:33 [router.go:828][D] | GET        | /                                        | 12.474557ms      | match      | /                                        | 
+2016/02/24 11:56:37 [router.go:828][D] | GET        | /demo1                                   | 379.064µs        | match      | /demo1                                   | 
+2016/02/24 11:56:37 [router.go:828][D] | GET        | /avalon.js                               | 355.353µs        | notmatch   | 
+2016/02/24 11:58:06 [template.go:151][D] parse template err: demo1.tpl template: demo1.tpl:20: function "username" not defined 
+2016/02/24 11:58:06 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/24 11:58:07 [template.go:151][D] parse template err: demo1.tpl template: demo1.tpl:20: function "username" not defined 
+2016/02/24 11:58:07 [router.go:853][C] the request url is  /demo1 
+2016/02/24 11:58:07 [router.go:854][C] Handler crashed with error can't find templatefile in the path:demo1.tpl 
+2016/02/24 11:58:07 [router.go:860][C] /usr/local/go/src/runtime/asm_amd64.s:437 
+2016/02/24 11:58:07 [router.go:860][C] /usr/local/go/src/runtime/panic.go:423 
+2016/02/24 11:58:07 [router.go:860][C] /Users/liche/Applications/Go/src/github.com/astaxie/beego/controller.go:262 
+2016/02/24 11:58:07 [router.go:860][C] /Users/liche/Applications/Go/src/github.com/astaxie/beego/controller.go:183 
+2016/02/24 11:58:07 [router.go:860][C] /Users/liche/Applications/Go/src/github.com/astaxie/beego/router.go:784 
+2016/02/24 11:58:07 [router.go:860][C] /usr/local/go/src/net/http/server.go:1862 
+2016/02/24 11:58:07 [router.go:860][C] /usr/local/go/src/net/http/server.go:1361 
+2016/02/24 11:58:07 [router.go:860][C] /usr/local/go/src/runtime/asm_amd64.s:1696 
+2016/02/24 11:58:32 [router.go:828][D] | GET        | /demo1                                   | 482.852µs        | match      | /demo1                                   | 
+2016/02/24 11:58:32 [router.go:828][D] | GET        | /avalon.js                               | 263.611µs        | notmatch   | 
+2016/02/24 12:02:39 [router.go:828][D] | GET        | /demo1                                   | 474.827µs        | match      | /demo1                                   | 
+2016/02/24 12:02:39 [router.go:828][D] | GET        | /jquery.js                               | 549.792µs        | notmatch   | 
+2016/02/24 12:02:39 [router.go:828][D] | GET        | /avalon.js                               | 443.69µs         | notmatch   | 
+2016/02/24 12:02:40 [router.go:828][D] | GET        | /demo1                                   | 527.177µs        | match      | /demo1                                   | 
+2016/02/24 12:02:40 [router.go:828][D] | GET        | /jquery.js                               | 232.755µs        | notmatch   | 
+2016/02/24 12:02:40 [router.go:828][D] | GET        | /avalon.js                               | 207.402µs        | notmatch   | 
+2016/02/24 12:02:41 [router.go:828][D] | GET        | /demo1                                   | 410.378µs        | match      | /demo1                                   | 
+2016/02/24 12:02:41 [router.go:828][D] | GET        | /jquery.js                               | 331.505µs        | notmatch   | 
+2016/02/24 12:02:41 [router.go:828][D] | GET        | /avalon.js                               | 397.682µs        | notmatch   | 
+2016/02/24 12:03:09 [router.go:828][D] | GET        | /demo1                                   | 449.443µs        | match      | /demo1                                   | 
+2016/02/24 12:03:09 [router.go:828][D] | GET        | /avalon.js                               | 268.992µs        | notmatch   | 
+2016/02/24 12:09:11 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/24 12:09:40 [router.go:828][D] | GET        | /demo1                                   | 813.145µs        | match      | /demo1                                   | 
+2016/02/24 12:09:40 [router.go:828][D] | GET        | /views/jquery.js                         | 347.53µs         | notmatch   | 
+2016/02/24 12:09:40 [router.go:828][D] | GET        | /avalon.js                               | 454.133µs        | notmatch   | 
+2016/02/24 12:09:41 [router.go:828][D] | GET        | /demo1                                   | 448.758µs        | match      | /demo1                                   | 
+2016/02/24 12:09:41 [router.go:828][D] | GET        | /views/jquery.js                         | 435.505µs        | notmatch   | 
+2016/02/24 12:09:41 [router.go:828][D] | GET        | /avalon.js                               | 420.726µs        | notmatch   | 
+2016/02/24 12:10:52 [router.go:828][D] | GET        | /demo1                                   | 488.429µs        | match      | /demo1                                   | 
+2016/02/24 12:10:52 [router.go:828][D] | GET        | /avalon.js                               | 344.495µs        | notmatch   | 
+2016/02/24 12:12:58 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/24 12:13:12 [router.go:828][D] | GET        | /demo1                                   | 767.482µs        | match      | /demo1                                   | 
+2016/02/24 12:13:12 [router.go:828][D] | GET        | /avalon.js                               | 338.876µs        | notmatch   | 
+2016/02/24 12:13:14 [router.go:828][D] | GET        | /demo1                                   | 602.127µs        | match      | /demo1                                   | 
+2016/02/24 12:13:14 [router.go:828][D] | GET        | /avalon.js                               | 297.125µs        | notmatch   | 
+2016/02/24 12:15:10 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/24 12:15:11 [router.go:828][D] | GET        | /demo1                                   | 750.571µs        | match      | /demo1                                   | 
+2016/02/24 12:15:11 [router.go:828][D] | GET        | /avalon.js                               | 436.914µs        | notmatch   | 
+2016/02/24 12:16:03 [router.go:828][D] | GET        | /demo1                                   | 583.055µs        | match      | /demo1                                   | 
+2016/02/24 12:16:03 [router.go:828][D] | GET        | /avalon.js                               | 505.063µs        | notmatch   | 
+2016/02/24 12:16:38 [router.go:828][D] | GET        | /demo1                                   | 506.08µs         | match      | /demo1                                   | 
+2016/02/24 12:16:38 [router.go:828][D] | GET        | /avalon.js                               | 370.401µs        | notmatch   | 
+2016/02/24 12:16:46 [router.go:828][D] | GET        | /demo1                                   | 539.636µs        | match      | /demo1                                   | 
+2016/02/24 12:16:46 [router.go:828][D] | GET        | /avalon.js                               | 327.611µs        | notmatch   | 
+2016/02/24 12:26:27 [router.go:828][D] | GET        | /demo1                                   | 414.598µs        | match      | /demo1                                   | 
+2016/02/24 12:26:27 [router.go:828][D] | GET        | /avalon.js                               | 561.153µs        | notmatch   | 
+2016/02/25 08:54:04 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/25 08:54:45 [user.go:58][A] [] 
+2016/02/25 08:54:45 [router.go:853][C] the request url is  /user/deletedemo 
+2016/02/25 08:54:45 [router.go:854][C] Handler crashed with error can't find templatefile in the path:usercontroller/deletedemo.tpl 
+2016/02/25 08:54:45 [router.go:860][C] /usr/local/go/src/runtime/asm_amd64.s:437 
+2016/02/25 08:54:45 [router.go:860][C] /usr/local/go/src/runtime/panic.go:423 
+2016/02/25 08:54:45 [router.go:860][C] /Users/liche/Applications/Go/src/github.com/astaxie/beego/controller.go:262 
+2016/02/25 08:54:45 [router.go:860][C] /Users/liche/Applications/Go/src/github.com/astaxie/beego/controller.go:183 
+2016/02/25 08:54:45 [router.go:860][C] /Users/liche/Applications/Go/src/github.com/astaxie/beego/router.go:784 
+2016/02/25 08:54:45 [router.go:860][C] /usr/local/go/src/net/http/server.go:1862 
+2016/02/25 08:54:45 [router.go:860][C] /usr/local/go/src/net/http/server.go:1361 
+2016/02/25 08:54:45 [router.go:860][C] /usr/local/go/src/runtime/asm_amd64.s:1696 
+2016/02/25 08:55:49 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/25 08:55:53 [user.go:58][A] [] 
+2016/02/25 08:55:53 [router.go:828][D] | DELETE     | /user/deletedemo                         | 133.274µs        | match      | /user/deletedemo/*                       | 
+2016/02/25 08:56:45 [user.go:58][A] [] 
+2016/02/25 08:56:45 [router.go:828][D] | DELETE     | /user/deletedemo                         | 59.406µs         | match      | /user/deletedemo/*                       | 
+2016/02/25 08:57:58 [user.go:58][A] [123 34 117 115 101 114 110 97 109 101 34 58 34 108 105 99 104 101 34 44 34 117 115 101 114 105 100 34 58 34 49 49 49 49 34 125] 
+2016/02/25 08:57:58 [router.go:828][D] | POST       | /user/deletedemo                         | 84.095µs         | match      | /user/deletedemo/*                       | 
+2016/02/25 08:58:45 [user.go:58][A] [] 
+2016/02/25 08:58:45 [router.go:828][D] | DELETE     | /user/deletedemo                         | 60.637µs         | match      | /user/deletedemo/*                       | 
+2016/02/25 08:58:53 [user.go:58][A] [] 
+2016/02/25 08:58:53 [router.go:828][D] | DELETE     | /user/deletedemo                         | 69.296µs         | match      | /user/deletedemo/*                       | 
+2016/02/25 08:59:29 [user.go:58][A] [] 
+2016/02/25 08:59:29 [router.go:828][D] | DELETE     | /user/deletedemo                         | 66.655µs         | match      | /user/deletedemo/*                       | 
+2016/02/25 09:00:04 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/25 09:00:07 [user.go:58][A] [] 
+2016/02/25 09:00:07 [user.go:59][A] liche?userid=22222 
+2016/02/25 09:00:07 [router.go:828][D] | DELETE     | /user/deletedemo                         | 139.8µs          | match      | /user/deletedemo/*                       | 
+2016/02/25 09:00:25 [user.go:58][A] [] 
+2016/02/25 09:00:25 [user.go:59][A] liche 
+2016/02/25 09:00:25 [router.go:828][D] | DELETE     | /user/deletedemo                         | 79.183µs         | match      | /user/deletedemo/*                       | 
+2016/02/25 09:01:11 [user.go:58][A] [] 
+2016/02/25 09:01:11 [user.go:59][A] liche 
+2016/02/25 09:01:11 [router.go:828][D] | DELETE     | /user/deletedemo                         | 74.887µs         | match      | /user/deletedemo/*                       | 
+2016/02/25 09:01:37 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/25 09:01:41 [user.go:58][A] [] 
+2016/02/25 09:01:41 [user.go:59][A] [liche 22222] 
+2016/02/25 09:01:41 [router.go:828][D] | DELETE     | /user/deletedemo                         | 165.77µs         | match      | /user/deletedemo/*                       | 
+2016/02/25 09:02:25 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/25 09:02:27 [user.go:58][A] &{0xc8202a5dc0 0xc820294bc0 0xc82018e620 0xc820294be0 } 
+2016/02/25 09:02:27 [user.go:59][A] [] 
+2016/02/25 09:02:27 [user.go:60][A] [liche 22222] 
+2016/02/25 09:02:27 [router.go:828][D] | DELETE     | /user/deletedemo                         | 206.545µs        | match      | /user/deletedemo/*                       | 
+2016/02/25 09:03:36 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/25 09:03:38 [user.go:58][A]  
+2016/02/25 09:03:38 [user.go:59][A] [] 
+2016/02/25 09:03:38 [user.go:60][A] [liche 22222] 
+2016/02/25 09:03:38 [router.go:828][D] | DELETE     | /user/deletedemo                         | 179.983µs        | match      | /user/deletedemo/*                       | 
+2016/02/25 09:04:04 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/25 09:04:23 [user.go:58][A] map[Accept-Encoding:[gzip, deflate, sdch] Accept-Language:[zh-CN,zh;q=0.8,en;q=0.6] Cookie:[username=liche1; beegosessionID=9d4e516857008603b013b817e9f8f055; auth=1|610fcd12532eb00efbad0c4fb90fc6a1] Connection:[keep-alive] Origin:[chrome-extension://pkichaliapehmcmiminpdbimciiemlff] User-Agent:[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36] Accept:[*/*]] 
+2016/02/25 09:04:23 [user.go:59][A] [] 
+2016/02/25 09:04:23 [user.go:60][A] [liche 22222] 
+2016/02/25 09:04:23 [router.go:828][D] | DELETE     | /user/deletedemo                         | 200.234µs        | match      | /user/deletedemo/*                       | 
+2016/02/25 09:04:49 [user.go:58][A] map[Connection:[keep-alive] Accept:[*/*] Content-Type:[application/x-www-form-urlencoded] Accept-Encoding:[gzip, deflate, sdch] Accept-Language:[zh-CN,zh;q=0.8,en;q=0.6] Cookie:[username=liche1; beegosessionID=9d4e516857008603b013b817e9f8f055; auth=1|610fcd12532eb00efbad0c4fb90fc6a1] Origin:[chrome-extension://pkichaliapehmcmiminpdbimciiemlff] User-Agent:[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36]] 
+2016/02/25 09:04:49 [user.go:59][A] [] 
+2016/02/25 09:04:49 [user.go:60][A] [liche 22222] 
+2016/02/25 09:04:49 [router.go:828][D] | DELETE     | /user/deletedemo                         | 103.806µs        | match      | /user/deletedemo/*                       | 
+2016/02/25 09:05:08 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/25 09:05:09 [user.go:58][A] application/x-www-form-urlencoded 
+2016/02/25 09:05:09 [user.go:59][A] [] 
+2016/02/25 09:05:09 [user.go:60][A] [liche 22222] 
+2016/02/25 09:05:09 [router.go:828][D] | DELETE     | /user/deletedemo                         | 264.858µs        | match      | /user/deletedemo/*                       | 
+2016/02/25 09:05:16 [user.go:58][A] application/json 
+2016/02/25 09:05:16 [user.go:59][A] [] 
+2016/02/25 09:05:16 [user.go:60][A] [liche 22222] 
+2016/02/25 09:05:16 [router.go:828][D] | DELETE     | /user/deletedemo                         | 95.787µs         | match      | /user/deletedemo/*                       | 
+2016/02/25 09:05:44 [user.go:58][A] application/json 
+2016/02/25 09:05:44 [user.go:59][A] [123 34 117 115 101 114 110 97 109 101 34 58 34 108 105 99 104 101 34 44 34 117 115 101 114 105 100 34 58 34 49 49 49 49 34 125] 
+2016/02/25 09:05:44 [user.go:60][A] [liche 22222] 
+2016/02/25 09:05:44 [router.go:828][D] | PUT        | /user/deletedemo                         | 118.847µs        | match      | /user/deletedemo/*                       | 
+2016/02/25 09:07:55 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/25 09:08:07 [user.go:63][A] application/json 
+2016/02/25 09:08:07 [user.go:65][A] [liche 22222] 
+2016/02/25 09:08:07 [user.go:66][A] [123 34 117 115 101 114 110 97 109 101 34 58 34 108 105 99 104 101 34 44 34 117 115 101 114 105 100 34 58 34 49 49 49 49 34 125] 
+2016/02/25 09:08:07 [user.go:70][A] &{liche 1111} 
+2016/02/25 09:08:07 [router.go:828][D] | PUT        | /user/deletedemo                         | 339.759µs        | match      | /user/deletedemo/*                       | 
+2016/02/25 09:08:28 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/25 09:08:31 [user.go:63][A] application/json 
+2016/02/25 09:08:31 [user.go:65][A] [liche 22222] 
+2016/02/25 09:08:31 [user.go:66][A] [123 34 117 115 101 114 110 97 109 101 34 58 34 108 105 99 104 101 34 44 34 117 115 101 114 105 100 34 58 34 49 49 49 49 34 125] 
+2016/02/25 09:08:31 [user.go:70][A] {liche 1111} 
+2016/02/25 09:08:31 [router.go:828][D] | PUT        | /user/deletedemo                         | 306.709µs        | match      | /user/deletedemo/*                       | 
+2016/02/25 09:08:41 [user.go:63][A] application/x-www-form-urlencoded 
+2016/02/25 09:08:41 [user.go:65][A] [liche 22222] 
+2016/02/25 09:08:41 [user.go:66][A] [123 34 117 115 101 114 110 97 109 101 34 58 34 108 105 99 104 101 34 44 34 117 115 101 114 105 100 34 58 34 49 49 49 49 34 125] 
+2016/02/25 09:08:41 [user.go:70][A] {liche 1111} 
+2016/02/25 09:08:41 [router.go:828][D] | PUT        | /user/deletedemo                         | 197.001µs        | match      | /user/deletedemo/*                       | 
+2016/02/25 09:08:57 [user.go:63][A] text/plain 
+2016/02/25 09:08:57 [user.go:65][A] [liche 22222] 
+2016/02/25 09:08:57 [user.go:66][A] [123 34 117 115 101 114 110 97 109 101 34 58 34 108 105 99 104 101 34 44 34 117 115 101 114 105 100 34 58 34 49 49 49 49 34 125] 
+2016/02/25 09:08:57 [user.go:70][A] {liche 1111} 
+2016/02/25 09:08:57 [router.go:828][D] | PUT        | /user/deletedemo                         | 154.171µs        | match      | /user/deletedemo/*                       | 
+2016/02/25 09:09:12 [user.go:63][A] application/json 
+2016/02/25 09:09:12 [user.go:65][A] [liche 22222] 
+2016/02/25 09:09:12 [user.go:66][A] [123 34 117 115 101 114 110 97 109 101 34 58 34 108 105 99 104 101 34 44 34 117 115 101 114 105 100 34 58 34 49 49 49 49 34 125] 
+2016/02/25 09:09:12 [user.go:70][A] {liche 1111} 
+2016/02/25 09:09:12 [router.go:828][D] | PUT        | /user/deletedemo                         | 160.771µs        | match      | /user/deletedemo/*                       | 
+2016/02/25 09:15:44 [user.go:63][A] application/json 
+2016/02/25 09:15:44 [user.go:65][A] [liche 22222] 
+2016/02/25 09:15:44 [user.go:66][A] [] 
+2016/02/25 09:15:44 [user.go:70][A] { } 
+2016/02/25 09:15:44 [router.go:828][D] | DELETE     | /user/deletedemo                         | 185.788µs        | match      | /user/deletedemo/*                       | 
+2016/02/25 09:47:49 [user.go:63][A] application/json 
+2016/02/25 09:47:49 [user.go:65][A] [liche 22222] 
+2016/02/25 09:47:49 [user.go:66][A] [123 34 117 115 101 114 110 97 109 101 34 58 34 108 105 99 104 101 34 44 34 117 115 101 114 105 100 34 58 34 49 49 49 49 34 125] 
+2016/02/25 09:47:49 [user.go:70][A] {liche 1111} 
+2016/02/25 09:47:49 [router.go:828][D] | POST       | /user/deletedemo                         | 171.025µs        | match      | /user/deletedemo/*                       | 
+2016/02/25 09:48:01 [user.go:63][A] application/json 
+2016/02/25 09:48:01 [user.go:65][A] [liche 22222] 
+2016/02/25 09:48:01 [user.go:66][A] [123 34 117 115 101 114 110 97 109 101 34 58 34 108 105 99 104 101 34 44 34 117 115 101 114 105 100 34 58 34 49 49 49 49 34 125] 
+2016/02/25 09:48:01 [user.go:70][A] {liche 1111} 
+2016/02/25 09:48:01 [router.go:828][D] | PUT        | /user/deletedemo                         | 111.124µs        | match      | /user/deletedemo/*                       | 
+2016/02/25 09:48:16 [user.go:63][A] application/json 
+2016/02/25 09:48:16 [user.go:65][A] [liche 22222] 
+2016/02/25 09:48:16 [user.go:66][A] [] 
+2016/02/25 09:48:16 [user.go:70][A] { } 
+2016/02/25 09:48:16 [router.go:828][D] | HEAD       | /user/deletedemo                         | 149.284µs        | match      | /user/deletedemo/*                       | 
+2016/02/25 09:48:23 [user.go:63][A] application/json 
+2016/02/25 09:48:23 [user.go:65][A] [liche 22222] 
+2016/02/25 09:48:23 [user.go:66][A] [] 
+2016/02/25 09:48:23 [user.go:70][A] { } 
+2016/02/25 09:48:23 [router.go:828][D] | HEAD       | /user/deletedemo                         | 86.479µs         | match      | /user/deletedemo/*                       | 
+2016/02/25 09:48:27 [user.go:63][A] application/json 
+2016/02/25 09:48:27 [user.go:65][A] [liche 22222] 
+2016/02/25 09:48:27 [user.go:66][A] [123 34 117 115 101 114 110 97 109 101 34 58 34 108 105 99 104 101 34 44 34 117 115 101 114 105 100 34 58 34 49 49 49 49 34 125] 
+2016/02/25 09:48:27 [user.go:70][A] {liche 1111} 
+2016/02/25 09:48:27 [router.go:828][D] | POST       | /user/deletedemo                         | 102.638µs        | match      | /user/deletedemo/*                       | 
+2016/02/25 09:48:29 [user.go:63][A] application/json 
+2016/02/25 09:48:29 [user.go:65][A] [liche 22222] 
+2016/02/25 09:48:29 [user.go:66][A] [123 34 117 115 101 114 110 97 109 101 34 58 34 108 105 99 104 101 34 44 34 117 115 101 114 105 100 34 58 34 49 49 49 49 34 125] 
+2016/02/25 09:48:29 [user.go:70][A] {liche 1111} 
+2016/02/25 09:48:29 [router.go:828][D] | POST       | /user/deletedemo                         | 131.18µs         | match      | /user/deletedemo/*                       | 
+2016/02/25 09:48:47 [user.go:63][A] application/json 
+2016/02/25 09:48:47 [user.go:65][A] [liche 22222] 
+2016/02/25 09:48:47 [user.go:66][A] [] 
+2016/02/25 09:48:47 [user.go:70][A] { } 
+2016/02/25 09:48:47 [router.go:828][D] | OPTIONS    | /user/deletedemo                         | 84.179µs         | match      | /user/deletedemo/*                       | 
+2016/02/25 09:48:53 [user.go:63][A] application/json 
+2016/02/25 09:48:53 [user.go:65][A] [liche 22222] 
+2016/02/25 09:48:53 [user.go:66][A] [123 34 117 115 101 114 110 97 109 101 34 58 34 108 105 99 104 101 34 44 34 117 115 101 114 105 100 34 58 34 49 49 49 49 34 125] 
+2016/02/25 09:48:53 [user.go:70][A] {liche 1111} 
+2016/02/25 09:48:53 [router.go:828][D] | PATCH      | /user/deletedemo                         | 165.63µs         | match      | /user/deletedemo/*                       | 
+2016/02/25 09:48:57 [user.go:63][A] application/json 
+2016/02/25 09:48:57 [user.go:65][A] [liche 22222] 
+2016/02/25 09:48:57 [user.go:66][A] [123 34 117 115 101 114 110 97 109 101 34 58 34 108 105 99 104 101 34 44 34 117 115 101 114 105 100 34 58 34 49 49 49 49 34 125] 
+2016/02/25 09:48:57 [user.go:70][A] {liche 1111} 
+2016/02/25 09:48:57 [router.go:828][D] | PATCH      | /user/deletedemo                         | 140.626µs        | match      | /user/deletedemo/*                       | 
+2016/02/26 09:37:35 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/26 09:39:27 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/26 09:39:44 [router.go:828][D] | GET        | /demo1                                   | 707.066µs        | match      | /demo1                                   | 
+2016/02/26 09:39:44 [router.go:828][D] | GET        | /avalon.js                               | 357.032µs        | notmatch   | 
+2016/02/26 09:39:54 [router.go:828][D] | GET        | /login                                   | 366.375µs        | notmatch   | 
+2016/02/26 09:40:14 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/26 09:40:19 [user.go:20][A] GET ------------- 
+2016/02/26 09:40:19 [user.go:21][A] params===  
+2016/02/26 09:40:19 [user.go:22][A] UserController Login 
+2016/02/26 09:40:19 [user.go:26][A] user --- login 
+2016/02/26 09:40:19 [user.go:28][A] [] 
+2016/02/26 09:40:19 [user.go:39][A] { } 
+2016/02/26 09:40:19 [router.go:828][D] | GET        | /user/login                              | 324.339µs        | match      | /user/login/*                            | 
+2016/02/26 09:43:01 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/26 09:43:03 [user.go:20][A] GET ------------- 
+2016/02/26 09:43:03 [user.go:21][A] params===  
+2016/02/26 09:43:03 [user.go:22][A] UserController Login 
+2016/02/26 09:43:03 [user.go:26][A] user --- login 
+2016/02/26 09:43:03 [user.go:28][A] [] 
+2016/02/26 09:43:03 [user.go:39][A] { } 
+2016/02/26 09:43:03 [router.go:828][D] | GET        | /user/login                              | 268.402µs        | match      | /user/login/*                            | 
+2016/02/26 09:43:21 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/26 09:43:50 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/26 09:44:50 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/26 09:44:53 [base.go:45][A] 44444 
+2016/02/26 09:46:02 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/26 09:46:04 [base.go:46][A] [1 610fcd12532eb00efbad0c4fb90fc6a1] 
+2016/02/26 09:47:23 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/26 09:47:26 [base.go:46][A] [1 610fcd12532eb00efbad0c4fb90fc6a1] 
+2016/02/26 09:47:26 [base.go:47][A] 0 -- user login 
+2016/02/26 09:49:27 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/26 09:50:00 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/26 09:50:02 [base.go:50][A] 333 
+2016/02/26 09:53:01 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/26 16:47:28 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/26 16:49:40 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/26 16:53:04 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/26 16:53:12 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/26 16:57:53 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/26 17:05:55 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/26 17:05:57 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/26 17:05:59 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/26 17:06:01 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/26 17:06:03 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/26 17:06:06 [asm_amd64.s:1696][I] http server Running on :10002
+2016/02/29 09:04:29 [asm_amd64.s:1696][I] http server Running on :10002
